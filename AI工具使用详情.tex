@@ -1,0 +1,73 @@
+% !TEX program = xelatex
+\documentclass[12pt,a4paper]{ctexart}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{booktabs}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+
+\begin{document}
+
+\begin{center}
+{\zihao{2}\bfseries AI 工具使用详情}\\[1ex]
+{\normalsize（本报告仅就“程序实现”环节中使用 AI 的情况作出说明）}
+\end{center}
+
+\section*{一、所用 AI 工具名称、版本或型号}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ll}
+\toprule
+项目 & 内容 \\
+\midrule
+工具名称 & OpenAI Codex（桌面端 AI 编程助手）\\
+使用环节 & 程序实现（Python 代码编写、调试与绘图）\\
+使用方式 & 参赛队员提供算法与数学流程，AI 辅助生成和修改代码 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section*{二、使用目的和环节}
+
+本队在本次竞赛中仅在\textbf{程序实现}环节使用 AI 工具，具体包括：
+
+\begin{enumerate}
+  \item 根据队员已经建立的数学模型与算法步骤，辅助编写 Python 程序；
+  \item 辅助调试代码中的语法错误、数组维度错误与数值异常；
+  \item 辅助使用 Matplotlib 生成论文所需图表；
+  \item 辅助整理程序运行结果，便于与论文中的表格核对。
+\end{enumerate}
+
+核心建模思想、公式推导、算法选择、参数设定与最终结论均由参赛队员完成，不依赖 AI 生成。
+
+\section*{三、主要提示方式与使用过程}
+
+队员向 AI 给出明确的任务边界，例如：
+
+\begin{itemize}
+  \item “根据给定公式，编写求解单声源定位的非线性最小二乘程序”；
+  \item “用匈牙利算法实现 4 阶指派问题的程序”；
+  \item “对蒙特卡洛结果绘制箱线图并保存 PNG 文件”；
+  \item “检查程序报错原因并给出修改建议”。
+\end{itemize}
+
+AI 仅在上述“程序实现”请求范围内给出代码或调试建议，没有参与问题分析、模型构建和结果判断。
+
+\section*{四、AI 输出的采纳、修改与核验}
+
+\begin{enumerate}
+  \item AI 生成的代码全部由队员逐行阅读并理解后运行；
+  \item 代码中的算法常数、初值、误差范围与绘图参数均由队员依据模型和题目条件检查；
+  \item 所有程序的数值输出均已与论文表格进行核对；
+  \item 由 AI 辅助生成的图表均经队员检查坐标轴、图例与数据是否与正文一致；
+  \item 若程序结果与理论不符，由队员独立修改模型或参数后重新运行，不直接采用 AI 的修改结论。
+\end{enumerate}
+
+\section*{五、声明一致性}
+
+本报告与论文正文中《AI 工具使用声明》一致：本队使用了 AI 工具，用途限于\textbf{程序实现}，详细情况见本报告。
+
+\vfill
+\noindent 说明：本报告仅用于支撑材料存档，正文、摘要及其他文件中不含本报告内容。
+
+\end{document}
