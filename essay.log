@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.25)  7 SEP 2026 22:00
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.25)  7 SEP 2026 22:03
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -848,10 +848,8 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 1173.
- (./essay_code.py [19
-
-] [20] [21] [22]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 1186.
+ (./essay_code.py [19] [20] [21] [22]
 Overfull \hbox (71.72437pt too wide) in paragraph at lines 151--152
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
@@ -866,13 +864,17 @@ Overfull \hbox (38.32672pt too wide) in paragraph at lines 153--155
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `essay.out' has not changed.
 (rerunfilecheck)             Checksum: B790DDE2F09B12189A6133F5579C140B;5735.
  ) 
 Here is how much of TeX's memory you used:
  21977 strings out of 474773
  452583 string characters out of 5761288
- 2052842 words of memory out of 5000000
+ 2043842 words of memory out of 5000000
  43788 multiletter control sequences out of 15000+600000
  565028 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
